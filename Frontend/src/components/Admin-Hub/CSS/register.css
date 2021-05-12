@@ -1,0 +1,62 @@
+.register-form{
+    background-color: rgba(237, 237, 243, 0.822); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+
+.addDevice-form-Container{
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:white;
+    padding: 0;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; 
+    height: 400px;
+    width: 400px;
+    left: 35%;
+    top: 12.5vh;
+    font-weight: 300;
+
+}
+
+.addDevice-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 5vh;
+
+}
+
+.addDevice-form h2{
+    font-weight: 200;
+}
+
+
+input[type=text] {
+    border: 2px solid rgba(128, 128, 128, 0.308);
+    position: relative;
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 3px;
+    width: 250px;
+
+}
+
+
+input[type=button], input[type=submit] {
+    border: 2px solid rgba(128, 128, 128, 0.068);
+    color: rgb(43, 43, 43);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 5vh;
+    background-color: rgba(223, 238, 255, 0.363);
+ }
+

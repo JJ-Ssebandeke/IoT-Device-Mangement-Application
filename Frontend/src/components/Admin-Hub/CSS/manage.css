@@ -1,0 +1,104 @@
+.manage{
+    background-color: rgba(237, 237, 243, 0.822); 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+}
+
+.device-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-evenly;
+    left: 10vw;
+    top: 5vh;
+    height: 500px;
+    width: 200px;
+    text-align: center;
+
+}
+
+.device-container h2{
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+    font-size: 12.5px;
+    
+}
+.device-container h1{
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+    font-size: 75px;
+    
+}
+
+.total-devices{
+    background-color:rgb(255, 255, 255);
+    font-size: 17.5px;
+    padding: 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    transition: 0.3s;
+    border: 1px solid rgba(121, 119, 119, 0.253);
+}
+
+.loaned-devices{
+    background-color:rgb(255, 255, 255);
+    font-size: 17.5px;
+    padding: 0;
+    border: 1px solid rgba(121, 119, 119, 0.253);
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.overdue-devices{
+    background-color:rgb(255, 255, 255);
+    font-size: 17.5px;
+    border: 1px solid rgba(121, 119, 119, 0.253);
+    padding: 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 3px;
+    transition: 0.3s;
+
+}
+
+.owners{
+    background-color:rgb(255, 255, 255);
+    position: relative;
+    left: 22.5vw;
+    bottom: 59.35vh;
+    font-size: 17.5px;
+    padding: 0;
+    height: 475px;
+    width: 550px;
+    border-radius: 3px;
+    transition: 0.3s;
+    border: 1px solid rgba(121, 119, 119, 0.253);
+    text-align: center;
+}
+
+.owners h3 {
+    margin: 7.5px;
+    font-weight: 300;
+    font-size: 25px;
+
+}
+
+.DeviceName{
+    padding-left: 15px;
+    line-height: 50px;
+    list-style: none;
+    text-align: left;
+}
+
+.DeviceOwners{
+    
+    padding-left: 15px;
+    line-height: 50px;
+    list-style: none;
+    text-align: left;
+
+}
+

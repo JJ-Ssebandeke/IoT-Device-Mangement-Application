@@ -1,0 +1,35 @@
+.loanDevice-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    top: 1vh;
+
+}
+
+.loanDevice-form h2{
+    font-weight: 300;
+}
+
+input[type=text] {
+    border: 2px solid rgba(128, 128, 128, 0.308);
+    position: relative;
+    padding: 12px;
+    margin-top: 30px;
+    border-radius: 3px;
+    width: 250px;
+
+}
+
+
+input[type=button], input[type=submit] {
+    border: 2px solid rgba(128, 128, 128, 0.068);
+    color: rgb(43, 43, 43);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 5vh;
+    background-color: rgba(223, 238, 255, 0.363);
+  }
